@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: black;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.navbar ul li {
+    display: inline-flex;
+    padding: 0px 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(145, 255, 0);
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.navbar .social-media a button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0px 6px;
+    font-size: 20px;
+}
+
+.navbar .social-media a button:hover {
+    transform: translateY(-7px);
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#home {
+    background: url('/assets/img/1.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+
+#home .container {
+    max-width: 700px;
+    position: relative;
+    top: 150px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 100px;
+}
+
+#home .container h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#home .container p {
+    color: white;
+    padding: 20px 0px;
+}
+
+#home .container .btn {
+    height: 45px;
+    width: 180px;
+    background: rgb(76, 0, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
